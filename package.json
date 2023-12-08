@@ -1,0 +1,10 @@
+{
+  "name": "reinhardttube-fe",
+  "version": "1.0.0",
+  "description": "Front-end for ReinhardtTube",
+  "main": "index.js",
+  "repository": "https://github.com/rvanwyk9191/reinhardttube-fe",
+  "author": "Reinhardt van Wyk",
+  "license": "Reinhardt van Wyk",
+  "private": null
+}
