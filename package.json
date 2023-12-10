@@ -6,5 +6,25 @@
   "repository": "https://github.com/rvanwyk9191/reinhardttube-fe",
   "author": "Reinhardt van Wyk",
   "license": "Reinhardt van Wyk",
-  "private": null
+  "private": null,
+  "scripts": {
+    "build": "webpack build --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js"
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-doom": "^1.0.0"
+  }
 }
